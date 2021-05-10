@@ -5,8 +5,7 @@ https://www.angulararchitects.io/aktuelles/dynamic-module-federation-with-angula
 
 Includes language translation with @ngx-translate and primeng for UI components.
 
-Angular CLI 11
-Works with both Node 14 and 12
+Angular CLI 11. Node 14 and 12.
 
 ## Development server
 
