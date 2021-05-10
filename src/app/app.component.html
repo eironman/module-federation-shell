@@ -1,0 +1,7 @@
+<p-menubar [model]="menuItems">
+  <ng-template pTemplate="end">
+    <button pButton class="p-mr-2" icon="pi pi-flag" (click)="changeLang('es')" label="Español"></button>
+    <button pButton icon="pi pi-flag" (click)="changeLang('en')" label="English"></button>
+  </ng-template>
+</p-menubar>
+<router-outlet></router-outlet>

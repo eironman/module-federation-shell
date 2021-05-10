@@ -1,0 +1,11 @@
+{
+  "menu": {
+    "app-a": "Application A",
+    "app-b": "Application B",
+    "feature-a": "Feature A",
+    "feature-b": "Feature B",
+    "feature-c": "Feature C",
+    "shell": "Shell"
+  },
+  "shell-form": "Shell Form"
+}

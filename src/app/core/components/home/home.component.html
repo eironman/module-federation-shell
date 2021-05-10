@@ -1,0 +1,33 @@
+<h1 class="p-mt-4 p-mb-3">{{'shell-form' | translate}}</h1>
+<div class="p-grid">
+  <div class="p-col-2">left column</div>
+  <div class="p-col-8">
+    <div class="p-fluid p-formgrid p-grid">
+      <div class="p-field p-col-12 p-md-6">
+        <label for="firstname">Firstname</label>
+        <input id="firstname" type="text" pInputText>
+      </div>
+      <div class="p-field p-col-12 p-md-6">
+        <label for="lastname">Lastname</label>
+        <input id="lastname" type="text" pInputText>
+      </div>
+      <div class="p-field p-col-12">
+        <label for="address">Address</label>
+        <textarea id="address" type="text" rows="4" pInputTextarea></textarea>
+      </div>
+      <div class="p-field p-col-12 p-md-6">
+        <label for="city">City</label>
+        <input id="city" type="text" pInputText>
+      </div>
+      <div class="p-field p-col-12 p-md-3">
+        <label>Province</label>
+        <p-dropdown inputId="state" [options]="provinces" placeholder="Select" optionLabel="name"></p-dropdown>
+      </div>
+      <div class="p-field p-col-12 p-md-3">
+        <label for="zip">Zip</label>
+        <input id="zip" type="text" pInputText>
+      </div>
+    </div>
+  </div>
+  <div class="p-col-2">right column</div>
+</div>

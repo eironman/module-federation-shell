@@ -1,0 +1,11 @@
+{
+  "menu": {
+    "app-a": "Aplicación A",
+    "app-b": "Aplicación B",
+    "feature-a": "Característica A",
+    "feature-b": "Característica B",
+    "feature-c": "Característica C",
+    "shell": "Caparazón"
+  },
+  "shell-form": "Formulario Caparazón"
+}
