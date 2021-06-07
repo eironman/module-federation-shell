@@ -9,4 +9,4 @@ Angular CLI 11. Node 14 and 12.
 
 ## Development server
 
-Run `ng yarn` for a dev server. Navigate to `http://localhost:4000/`.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4000/`.
